@@ -1,0 +1,55 @@
+<stylecopresultscache>
+  <version>12</version>
+  <project key="1661706213">
+    <configuration>
+    </configuration>
+  </project>
+  <project key="-1400730972">
+    <configuration>
+    </configuration>
+  </project>
+  <sourcecode name="PresentationModelTests.cs" parser="StyleCop.CSharp.CsParser">
+    <timestamps>
+      <styleCop>2021/10/04 13:23:05.536</styleCop>
+      <settingsFile>0001/01/01 00:00:00.000</settingsFile>
+      <sourceFile>2021/12/26 16:09:02.046</sourceFile>
+      <parser>2021/10/04 13:23:05.536</parser>
+      <KellyPalRules.KellyPalAnalyzer>2021/10/04 13:23:05.536</KellyPalRules.KellyPalAnalyzer>
+      <KellyPalRules.KellyPalAnalyzer.FilesHashCode>0</KellyPalRules.KellyPalAnalyzer.FilesHashCode>
+    </timestamps>
+    <violations />
+  </sourcecode>
+  <sourcecode name="AssemblyInfo.cs" parser="StyleCop.CSharp.CsParser">
+    <timestamps>
+      <styleCop>2021/10/04 13:23:05.536</styleCop>
+      <settingsFile>0001/01/01 00:00:00.000</settingsFile>
+      <sourceFile>2021/12/11 14:34:30.490</sourceFile>
+      <parser>2021/10/04 13:23:05.536</parser>
+      <KellyPalRules.KellyPalAnalyzer>2021/10/04 13:23:05.536</KellyPalRules.KellyPalAnalyzer>
+      <KellyPalRules.KellyPalAnalyzer.FilesHashCode>0</KellyPalRules.KellyPalAnalyzer.FilesHashCode>
+    </timestamps>
+    <violations />
+  </sourcecode>
+  <sourcecode name="Robot.cs" parser="StyleCop.CSharp.CsParser">
+    <timestamps>
+      <styleCop>2021/10/04 13:23:05.536</styleCop>
+      <settingsFile>0001/01/01 00:00:00.000</settingsFile>
+      <sourceFile>2021/12/13 19:53:28.678</sourceFile>
+      <parser>2021/10/04 13:23:05.536</parser>
+      <KellyPalRules.KellyPalAnalyzer>2021/10/04 13:23:05.536</KellyPalRules.KellyPalAnalyzer>
+      <KellyPalRules.KellyPalAnalyzer.FilesHashCode>0</KellyPalRules.KellyPalAnalyzer.FilesHashCode>
+    </timestamps>
+    <violations />
+  </sourcecode>
+  <sourcecode name="UITests.cs" parser="StyleCop.CSharp.CsParser">
+    <timestamps>
+      <styleCop>2021/10/04 13:23:05.536</styleCop>
+      <settingsFile>0001/01/01 00:00:00.000</settingsFile>
+      <sourceFile>2021/12/12 13:46:16.972</sourceFile>
+      <parser>2021/10/04 13:23:05.536</parser>
+      <KellyPalRules.KellyPalAnalyzer>2021/10/04 13:23:05.536</KellyPalRules.KellyPalAnalyzer>
+      <KellyPalRules.KellyPalAnalyzer.FilesHashCode>0</KellyPalRules.KellyPalAnalyzer.FilesHashCode>
+    </timestamps>
+    <violations />
+  </sourcecode>
+</stylecopresultscache>

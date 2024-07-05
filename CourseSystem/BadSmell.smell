@@ -1,0 +1,1678 @@
+<html>
+  <head>
+    <title>Code Review :: </title>
+    <style type="text/css">
+    .body{background-color:White;}
+    .summary{width:100%;font-weight:bold;background-color:White;border: thin solid #808000;color:#FAFCFE}
+    .outer{font-weight:normal;color:#6D5757;background-color:#FFDFBF}
+    .inner{font-weight:normal;color:black;}
+    .reviewTable{border: thin solid #C0C0C0; width:100%}
+    .headerRow{color:white;background-color: #800000;font-weight:bold;text-align: center}
+    .reviewRow{background-color:#FFDFBF;color:black;}
+    .rAligned{text-align:right;}
+    .data{visibility:hidden}
+  </style>
+  </head>
+  <body class="body">
+    <div class="summary">
+      <table>
+        <tr>
+          <td colspan="3" class="headerRow">Review Summary</td>
+        </tr>
+        <tr class="outer">
+          <td>Project Name : <label class="inner" /></td>
+          <td>Reviewed By : <label class="inner" /></td>
+        </tr>
+        <tr class="outer">
+          <td>Project Code : <label class="inner" /></td>
+          <td>Reviewed Date : <label class="inner" /></td>
+        </tr>
+        <tr class="outer">
+          <td>Work Product Name : <label class="inner" /></td>
+          <td>Status : <label class="inner" /></td>
+        </tr>
+        <tr class="outer">
+          <td>Work Product Version : <label class="inner" /></td>
+          <td>Review Preparation Effort : <label class="inner" /></td>
+        </tr>
+        <tr class="outer">
+          <td>Work Product Size (ekloc) : <label class="inner" /></td>
+          <td>Review effort : <label class="inner" /></td>
+        </tr>
+        <tr class="outer">
+          <td>Work Product Release Date for Review : <label class="inner" /></td>
+          <td>Rework effort : <label class="inner" /></td>
+        </tr>
+        <tr class="outer">
+          <td>Review Action Taken By : <label class="inner" /></td>
+          <td>Review Efficiency : <label class="inner">NaN</label></td>
+        </tr>
+        <tr class="outer">
+          <td>Review Action Taken Date : <label class="inner" /></td>
+          <td />
+        </tr>
+      </table>
+      <table>
+        <tr class="headerRow">
+          <td colspan="2">Review Details</td>
+          <td colspan="2">Defect Status Analysis</td>
+          <td colspan="2">Defect Type Analysis</td>
+          <td colspan="4">Defect Injected Phase Analysis</td>
+        </tr>
+        <tr class="outer">
+          <td />
+          <td />
+          <td />
+          <td />
+          <td />
+          <td />
+          <td />
+          <td>Major</td>
+          <td>Medium</td>
+          <td>Minor</td>
+        </tr>
+        <tr class="outer">
+          <td>Total No of Suggestions</td>
+          <td class="inner">0</td>
+          <td>Open</td>
+          <td class="inner">0</td>
+          <td>Logical</td>
+          <td class="inner">0</td>
+          <td>Initial Project Setup</td>
+          <td class="inner">0</td>
+          <td class="inner">0</td>
+          <td class="inner">0</td>
+        </tr>
+        <tr class="outer">
+          <td>Total No of Errors</td>
+          <td class="inner">0</td>
+          <td>On Hold</td>
+          <td class="inner">0</td>
+          <td>Incomplete</td>
+          <td class="inner">0</td>
+          <td>Project Initiation</td>
+          <td class="inner">0</td>
+          <td class="inner">0</td>
+          <td class="inner">0</td>
+        </tr>
+        <tr class="outer">
+          <td>Total</td>
+          <td class="inner">0</td>
+          <td>Closed</td>
+          <td class="inner">0</td>
+          <td>UI</td>
+          <td class="inner">0</td>
+          <td>Requirement Analysis</td>
+          <td class="inner">0</td>
+          <td class="inner">0</td>
+          <td class="inner">0</td>
+        </tr>
+        <tr class="outer">
+          <td />
+          <td />
+          <td>Rejected</td>
+          <td class="inner">0</td>
+          <td>Exception Handling</td>
+          <td class="inner">0</td>
+          <td>Architecture and Design</td>
+          <td class="inner">0</td>
+          <td class="inner">0</td>
+          <td class="inner">0</td>
+        </tr>
+        <tr class="outer">
+          <td />
+          <td />
+          <td />
+          <td />
+          <td>Documentation</td>
+          <td class="inner">0</td>
+          <td>Implementation</td>
+          <td class="inner">0</td>
+          <td class="inner">0</td>
+          <td class="inner">0</td>
+        </tr>
+        <tr class="outer">
+          <td />
+          <td />
+          <td />
+          <td />
+          <td />
+          <td class="inner" />
+          <td>QA Testing</td>
+          <td class="inner">0</td>
+          <td class="inner">0</td>
+          <td class="inner">0</td>
+        </tr>
+        <tr class="outer">
+          <td />
+          <td />
+          <td />
+          <td />
+          <td />
+          <td class="inner" />
+          <td>Transition Phase</td>
+          <td class="inner">0</td>
+          <td class="inner">0</td>
+          <td class="inner">0</td>
+        </tr>
+        <tr class="outer">
+          <td />
+          <td />
+          <td />
+          <td />
+          <td />
+          <td />
+          <td class="rAligned">Total</td>
+          <td class="inner">0</td>
+          <td class="inner">0</td>
+          <td class="inner">0</td>
+        </tr>
+      </table>
+    </div>
+    <br />
+    <table class="reviewTable">
+      <tr class="headerRow">
+        <td>#</td>
+        <td>Description</td>
+        <td>Status</td>
+        <td>DefectType</td>
+        <td>InjectedPhase</td>
+      </tr>
+    </table>
+    <div>
+      <br />
+    Created with <a href="http://visualstudiogallery.msdn.microsoft.com/d1e40c49-da36-42a5-8d5a-4ebe1feabbc9">ReviewPal</a></div>
+    <div class="data">
+      <Data id="ReviewPalData">
+        <CodeReview xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+          <Reviews>
+            <Smell>
+              <Id>1</Id>
+              <SmellType>Unsuitable naming(名不符實)-CLASS_CSIE(csie)</SmellType>
+              <HashCode>UnsuitableNaming.Class.CLASS_CSIE.CLASS_CSIE</HashCode>
+              <Severity>Red</Severity>
+              <Weight>1</Weight>
+              <Project>CourseSystem</Project>
+              <File>Class.cs</File>
+              <Line>18</Line>
+              <StartLine>0</StartLine>
+              <StartCol>0</StartCol>
+              <EndLine>0</EndLine>
+              <EndCol>0</EndCol>
+              <Comment />
+              <Auto>false</Auto>
+            </Smell>
+            <Smell>
+              <Id>2</Id>
+              <SmellType>Unsuitable naming(名不符實)-CLASS_EE(ee)</SmellType>
+              <HashCode>UnsuitableNaming.Class.CLASS_EE.CLASS_EE</HashCode>
+              <Severity>Red</Severity>
+              <Weight>1</Weight>
+              <Project>CourseSystem</Project>
+              <File>Class.cs</File>
+              <Line>19</Line>
+              <StartLine>0</StartLine>
+              <StartCol>0</StartCol>
+              <EndLine>0</EndLine>
+              <EndCol>0</EndCol>
+              <Comment />
+              <Auto>false</Auto>
+            </Smell>
+            <Smell>
+              <Id>3</Id>
+              <SmellType>Unsuitable naming(名不符實)-CLASS_CSIE_1(csie)</SmellType>
+              <HashCode>UnsuitableNaming.Class.CLASS_CSIE_1.CLASS_CSIE_1</HashCode>
+              <Severity>Red</Severity>
+              <Weight>1</Weight>
+              <Project>CourseSystem</Project>
+              <File>Class.cs</File>
+              <Line>20</Line>
+              <StartLine>0</StartLine>
+              <StartCol>0</StartCol>
+              <EndLine>0</EndLine>
+              <EndCol>0</EndCol>
+              <Comment />
+              <Auto>false</Auto>
+            </Smell>
+            <Smell>
+              <Id>4</Id>
+              <SmellType>Unsuitable naming(名不符實)-CLASS_CSIE_2(csie)</SmellType>
+              <HashCode>UnsuitableNaming.Class.CLASS_CSIE_2.CLASS_CSIE_2</HashCode>
+              <Severity>Red</Severity>
+              <Weight>1</Weight>
+              <Project>CourseSystem</Project>
+              <File>Class.cs</File>
+              <Line>21</Line>
+              <StartLine>0</StartLine>
+              <StartCol>0</StartCol>
+              <EndLine>0</EndLine>
+              <EndCol>0</EndCol>
+              <Comment />
+              <Auto>false</Auto>
+            </Smell>
+            <Smell>
+              <Id>5</Id>
+              <SmellType>Unsuitable naming(名不符實)-CLASS_CSIE_4(csie)</SmellType>
+              <HashCode>UnsuitableNaming.Class.CLASS_CSIE_4.CLASS_CSIE_4</HashCode>
+              <Severity>Red</Severity>
+              <Weight>1</Weight>
+              <Project>CourseSystem</Project>
+              <File>Class.cs</File>
+              <Line>22</Line>
+              <StartLine>0</StartLine>
+              <StartCol>0</StartCol>
+              <EndLine>0</EndLine>
+              <EndCol>0</EndCol>
+              <Comment />
+              <Auto>false</Auto>
+            </Smell>
+            <Smell>
+              <Id>6</Id>
+              <SmellType>Unsuitable naming(名不符實)-CSIE_NAME(csie)</SmellType>
+              <HashCode>UnsuitableNaming.Class.CSIE_NAME.CSIE_NAME</HashCode>
+              <Severity>Red</Severity>
+              <Weight>1</Weight>
+              <Project>CourseSystem</Project>
+              <File>Class.cs</File>
+              <Line>71</Line>
+              <StartLine>0</StartLine>
+              <StartCol>0</StartCol>
+              <EndLine>0</EndLine>
+              <EndCol>0</EndCol>
+              <Comment />
+              <Auto>false</Auto>
+            </Smell>
+            <Smell>
+              <Id>7</Id>
+              <SmellType>Unsuitable naming(名不符實)-EE_NAME(ee)</SmellType>
+              <HashCode>UnsuitableNaming.Class.EE_NAME.EE_NAME</HashCode>
+              <Severity>Red</Severity>
+              <Weight>1</Weight>
+              <Project>CourseSystem</Project>
+              <File>Class.cs</File>
+              <Line>72</Line>
+              <StartLine>0</StartLine>
+              <StartCol>0</StartCol>
+              <EndLine>0</EndLine>
+              <EndCol>0</EndCol>
+              <Comment />
+              <Auto>false</Auto>
+            </Smell>
+            <Smell>
+              <Id>8</Id>
+              <SmellType>Unsuitable naming(名不符實)-CSIE_1_NAME(csie)</SmellType>
+              <HashCode>UnsuitableNaming.Class.CSIE_1_NAME.CSIE_1_NAME</HashCode>
+              <Severity>Red</Severity>
+              <Weight>1</Weight>
+              <Project>CourseSystem</Project>
+              <File>Class.cs</File>
+              <Line>73</Line>
+              <StartLine>0</StartLine>
+              <StartCol>0</StartCol>
+              <EndLine>0</EndLine>
+              <EndCol>0</EndCol>
+              <Comment />
+              <Auto>false</Auto>
+            </Smell>
+            <Smell>
+              <Id>9</Id>
+              <SmellType>Unsuitable naming(名不符實)-CSIE_2_NAME(csie)</SmellType>
+              <HashCode>UnsuitableNaming.Class.CSIE_2_NAME.CSIE_2_NAME</HashCode>
+              <Severity>Red</Severity>
+              <Weight>1</Weight>
+              <Project>CourseSystem</Project>
+              <File>Class.cs</File>
+              <Line>74</Line>
+              <StartLine>0</StartLine>
+              <StartCol>0</StartCol>
+              <EndLine>0</EndLine>
+              <EndCol>0</EndCol>
+              <Comment />
+              <Auto>false</Auto>
+            </Smell>
+            <Smell>
+              <Id>10</Id>
+              <SmellType>Unsuitable naming(名不符實)-CSIE_4_NAME(csie)</SmellType>
+              <HashCode>UnsuitableNaming.Class.CSIE_4_NAME.CSIE_4_NAME</HashCode>
+              <Severity>Red</Severity>
+              <Weight>1</Weight>
+              <Project>CourseSystem</Project>
+              <File>Class.cs</File>
+              <Line>75</Line>
+              <StartLine>0</StartLine>
+              <StartCol>0</StartCol>
+              <EndLine>0</EndLine>
+              <EndCol>0</EndCol>
+              <Comment />
+              <Auto>false</Auto>
+            </Smell>
+            <Smell>
+              <Id>11</Id>
+              <SmellType>Long method(過長函式)</SmellType>
+              <HashCode>LongMethod.Class.SetHeaderText.29DataGridView dataGridView;</HashCode>
+              <Severity>Warning</Severity>
+              <Weight>29</Weight>
+              <Project>CourseSystem</Project>
+              <File>Class.cs</File>
+              <Line>190</Line>
+              <StartLine>0</StartLine>
+              <StartCol>0</StartCol>
+              <EndLine>0</EndLine>
+              <EndCol>0</EndCol>
+              <Comment />
+              <Auto>false</Auto>
+            </Smell>
+            <Smell>
+              <Id>12</Id>
+              <SmellType>Large class(過大類別)</SmellType>
+              <HashCode>LargeClass.CourseSystem.CourseInfoDto.459</HashCode>
+              <Severity>Warning</Severity>
+              <Weight>459</Weight>
+              <Project>CourseSystem</Project>
+              <File>CourseInfoDto.cs</File>
+              <Line>7</Line>
+              <StartLine>0</StartLine>
+              <StartCol>0</StartCol>
+              <EndLine>0</EndLine>
+              <EndCol>0</EndCol>
+              <Comment />
+              <Auto>false</Auto>
+            </Smell>
+            <Smell>
+              <Id>13</Id>
+              <SmellType>Unsuitable naming(名不符實)-CLASS_CSIE_1(csie)</SmellType>
+              <HashCode>UnsuitableNaming.ImportPresentationModel.CLASS_CSIE_1.CLASS_CSIE_1</HashCode>
+              <Severity>Red</Severity>
+              <Weight>1</Weight>
+              <Project>CourseSystem</Project>
+              <File>ImportPresentationModel.cs</File>
+              <Line>16</Line>
+              <StartLine>0</StartLine>
+              <StartCol>0</StartCol>
+              <EndLine>0</EndLine>
+              <EndCol>0</EndCol>
+              <Comment />
+              <Auto>false</Auto>
+            </Smell>
+            <Smell>
+              <Id>14</Id>
+              <SmellType>Unsuitable naming(名不符實)-CLASS_CSIE_2(csie)</SmellType>
+              <HashCode>UnsuitableNaming.ImportPresentationModel.CLASS_CSIE_2.CLASS_CSIE_2</HashCode>
+              <Severity>Red</Severity>
+              <Weight>1</Weight>
+              <Project>CourseSystem</Project>
+              <File>ImportPresentationModel.cs</File>
+              <Line>17</Line>
+              <StartLine>0</StartLine>
+              <StartCol>0</StartCol>
+              <EndLine>0</EndLine>
+              <EndCol>0</EndCol>
+              <Comment />
+              <Auto>false</Auto>
+            </Smell>
+            <Smell>
+              <Id>15</Id>
+              <SmellType>Unsuitable naming(名不符實)-CLASS_CSIE_4(csie)</SmellType>
+              <HashCode>UnsuitableNaming.ImportPresentationModel.CLASS_CSIE_4.CLASS_CSIE_4</HashCode>
+              <Severity>Red</Severity>
+              <Weight>1</Weight>
+              <Project>CourseSystem</Project>
+              <File>ImportPresentationModel.cs</File>
+              <Line>18</Line>
+              <StartLine>0</StartLine>
+              <StartCol>0</StartCol>
+              <EndLine>0</EndLine>
+              <EndCol>0</EndCol>
+              <Comment />
+              <Auto>false</Auto>
+            </Smell>
+            <Smell>
+              <Id>16</Id>
+              <SmellType>Large class(過大類別)</SmellType>
+              <HashCode>LargeClass.CourseSystem.ManagementPresentationModel.612</HashCode>
+              <Severity>Red</Severity>
+              <Weight>612</Weight>
+              <Project>CourseSystem</Project>
+              <File>ManagementPresentationModel.cs</File>
+              <Line>9</Line>
+              <StartLine>0</StartLine>
+              <StartCol>0</StartCol>
+              <EndLine>0</EndLine>
+              <EndCol>0</EndCol>
+              <Comment />
+              <Auto>false</Auto>
+            </Smell>
+            <Smell>
+              <Id>17</Id>
+              <SmellType>Unsuitable naming(名不符實)-CLASS_TIME_B(b)</SmellType>
+              <HashCode>UnsuitableNaming.ManagementPresentationModel.CLASS_TIME_B.CLASS_TIME_B</HashCode>
+              <Severity>Red</Severity>
+              <Weight>1</Weight>
+              <Project>CourseSystem</Project>
+              <File>ManagementPresentationModel.cs</File>
+              <Line>38</Line>
+              <StartLine>0</StartLine>
+              <StartCol>0</StartCol>
+              <EndLine>0</EndLine>
+              <EndCol>0</EndCol>
+              <Comment />
+              <Auto>false</Auto>
+            </Smell>
+            <Smell>
+              <Id>18</Id>
+              <SmellType>Unsuitable naming(名不符實)-CLASS_TIME_C(c)</SmellType>
+              <HashCode>UnsuitableNaming.ManagementPresentationModel.CLASS_TIME_C.CLASS_TIME_C</HashCode>
+              <Severity>Red</Severity>
+              <Weight>1</Weight>
+              <Project>CourseSystem</Project>
+              <File>ManagementPresentationModel.cs</File>
+              <Line>39</Line>
+              <StartLine>0</StartLine>
+              <StartCol>0</StartCol>
+              <EndLine>0</EndLine>
+              <EndCol>0</EndCol>
+              <Comment />
+              <Auto>false</Auto>
+            </Smell>
+            <Smell>
+              <Id>19</Id>
+              <SmellType>Unsuitable naming(名不符實)-CLASS_TIME_D(d)</SmellType>
+              <HashCode>UnsuitableNaming.ManagementPresentationModel.CLASS_TIME_D.CLASS_TIME_D</HashCode>
+              <Severity>Red</Severity>
+              <Weight>1</Weight>
+              <Project>CourseSystem</Project>
+              <File>ManagementPresentationModel.cs</File>
+              <Line>40</Line>
+              <StartLine>0</StartLine>
+              <StartCol>0</StartCol>
+              <EndLine>0</EndLine>
+              <EndCol>0</EndCol>
+              <Comment />
+              <Auto>false</Auto>
+            </Smell>
+            <Smell>
+              <Id>20</Id>
+              <SmellType>Unsuitable naming(名不符實)-CSIE_NAME(csie)</SmellType>
+              <HashCode>UnsuitableNaming.ManagementPresentationModel.CSIE_NAME.CSIE_NAME</HashCode>
+              <Severity>Red</Severity>
+              <Weight>1</Weight>
+              <Project>CourseSystem</Project>
+              <File>ManagementPresentationModel.cs</File>
+              <Line>48</Line>
+              <StartLine>0</StartLine>
+              <StartCol>0</StartCol>
+              <EndLine>0</EndLine>
+              <EndCol>0</EndCol>
+              <Comment />
+              <Auto>false</Auto>
+            </Smell>
+            <Smell>
+              <Id>21</Id>
+              <SmellType>Unsuitable naming(名不符實)-CSIE_1_NAME(csie)</SmellType>
+              <HashCode>UnsuitableNaming.ManagementPresentationModel.CSIE_1_NAME.CSIE_1_NAME</HashCode>
+              <Severity>Red</Severity>
+              <Weight>1</Weight>
+              <Project>CourseSystem</Project>
+              <File>ManagementPresentationModel.cs</File>
+              <Line>49</Line>
+              <StartLine>0</StartLine>
+              <StartCol>0</StartCol>
+              <EndLine>0</EndLine>
+              <EndCol>0</EndCol>
+              <Comment />
+              <Auto>false</Auto>
+            </Smell>
+            <Smell>
+              <Id>22</Id>
+              <SmellType>Unsuitable naming(名不符實)-CSIE_2_NAME(csie)</SmellType>
+              <HashCode>UnsuitableNaming.ManagementPresentationModel.CSIE_2_NAME.CSIE_2_NAME</HashCode>
+              <Severity>Red</Severity>
+              <Weight>1</Weight>
+              <Project>CourseSystem</Project>
+              <File>ManagementPresentationModel.cs</File>
+              <Line>50</Line>
+              <StartLine>0</StartLine>
+              <StartCol>0</StartCol>
+              <EndLine>0</EndLine>
+              <EndCol>0</EndCol>
+              <Comment />
+              <Auto>false</Auto>
+            </Smell>
+            <Smell>
+              <Id>23</Id>
+              <SmellType>Unsuitable naming(名不符實)-CSIE_4_NAME(csie)</SmellType>
+              <HashCode>UnsuitableNaming.ManagementPresentationModel.CSIE_4_NAME.CSIE_4_NAME</HashCode>
+              <Severity>Red</Severity>
+              <Weight>1</Weight>
+              <Project>CourseSystem</Project>
+              <File>ManagementPresentationModel.cs</File>
+              <Line>51</Line>
+              <StartLine>0</StartLine>
+              <StartCol>0</StartCol>
+              <EndLine>0</EndLine>
+              <EndCol>0</EndCol>
+              <Comment />
+              <Auto>false</Auto>
+            </Smell>
+            <Smell>
+              <Id>24</Id>
+              <SmellType>Unsuitable naming(名不符實)-EE_NAME(ee)</SmellType>
+              <HashCode>UnsuitableNaming.ManagementPresentationModel.EE_NAME.EE_NAME</HashCode>
+              <Severity>Red</Severity>
+              <Weight>1</Weight>
+              <Project>CourseSystem</Project>
+              <File>ManagementPresentationModel.cs</File>
+              <Line>52</Line>
+              <StartLine>0</StartLine>
+              <StartCol>0</StartCol>
+              <EndLine>0</EndLine>
+              <EndCol>0</EndCol>
+              <Comment />
+              <Auto>false</Auto>
+            </Smell>
+            <Smell>
+              <Id>25</Id>
+              <SmellType>Unsuitable naming(名不符實)-COURSE_CSIE(csie)</SmellType>
+              <HashCode>UnsuitableNaming.ManagementPresentationModel.COURSE_CSIE.COURSE_CSIE</HashCode>
+              <Severity>Red</Severity>
+              <Weight>1</Weight>
+              <Project>CourseSystem</Project>
+              <File>ManagementPresentationModel.cs</File>
+              <Line>53</Line>
+              <StartLine>0</StartLine>
+              <StartCol>0</StartCol>
+              <EndLine>0</EndLine>
+              <EndCol>0</EndCol>
+              <Comment />
+              <Auto>false</Auto>
+            </Smell>
+            <Smell>
+              <Id>26</Id>
+              <SmellType>Unsuitable naming(名不符實)-COURSE_CSIE_1(csie)</SmellType>
+              <HashCode>UnsuitableNaming.ManagementPresentationModel.COURSE_CSIE_1.COURSE_CSIE_1</HashCode>
+              <Severity>Red</Severity>
+              <Weight>1</Weight>
+              <Project>CourseSystem</Project>
+              <File>ManagementPresentationModel.cs</File>
+              <Line>54</Line>
+              <StartLine>0</StartLine>
+              <StartCol>0</StartCol>
+              <EndLine>0</EndLine>
+              <EndCol>0</EndCol>
+              <Comment />
+              <Auto>false</Auto>
+            </Smell>
+            <Smell>
+              <Id>27</Id>
+              <SmellType>Unsuitable naming(名不符實)-COURSE_CSIE_2(csie)</SmellType>
+              <HashCode>UnsuitableNaming.ManagementPresentationModel.COURSE_CSIE_2.COURSE_CSIE_2</HashCode>
+              <Severity>Red</Severity>
+              <Weight>1</Weight>
+              <Project>CourseSystem</Project>
+              <File>ManagementPresentationModel.cs</File>
+              <Line>55</Line>
+              <StartLine>0</StartLine>
+              <StartCol>0</StartCol>
+              <EndLine>0</EndLine>
+              <EndCol>0</EndCol>
+              <Comment />
+              <Auto>false</Auto>
+            </Smell>
+            <Smell>
+              <Id>28</Id>
+              <SmellType>Unsuitable naming(名不符實)-COURSE_CSIE_4(csie)</SmellType>
+              <HashCode>UnsuitableNaming.ManagementPresentationModel.COURSE_CSIE_4.COURSE_CSIE_4</HashCode>
+              <Severity>Red</Severity>
+              <Weight>1</Weight>
+              <Project>CourseSystem</Project>
+              <File>ManagementPresentationModel.cs</File>
+              <Line>56</Line>
+              <StartLine>0</StartLine>
+              <StartCol>0</StartCol>
+              <EndLine>0</EndLine>
+              <EndCol>0</EndCol>
+              <Comment />
+              <Auto>false</Auto>
+            </Smell>
+            <Smell>
+              <Id>29</Id>
+              <SmellType>Unsuitable naming(名不符實)-COURSE_EE(ee)</SmellType>
+              <HashCode>UnsuitableNaming.ManagementPresentationModel.COURSE_EE.COURSE_EE</HashCode>
+              <Severity>Red</Severity>
+              <Weight>1</Weight>
+              <Project>CourseSystem</Project>
+              <File>ManagementPresentationModel.cs</File>
+              <Line>57</Line>
+              <StartLine>0</StartLine>
+              <StartCol>0</StartCol>
+              <EndLine>0</EndLine>
+              <EndCol>0</EndCol>
+              <Comment />
+              <Auto>false</Auto>
+            </Smell>
+            <Smell>
+              <Id>30</Id>
+              <SmellType>Long method(過長函式)</SmellType>
+              <HashCode>LongMethod.ManagementPresentationModel.SetDictionary.27</HashCode>
+              <Severity>Warning</Severity>
+              <Weight>27</Weight>
+              <Project>CourseSystem</Project>
+              <File>ManagementPresentationModel.cs</File>
+              <Line>111</Line>
+              <StartLine>0</StartLine>
+              <StartCol>0</StartCol>
+              <EndLine>0</EndLine>
+              <EndCol>0</EndCol>
+              <Comment />
+              <Auto>false</Auto>
+            </Smell>
+            <Smell>
+              <Id>31</Id>
+              <SmellType>Long method(過長函式)</SmellType>
+              <HashCode>LongMethod.ManagementPresentationModel.InitialRow.27DataTable classTimeTable;</HashCode>
+              <Severity>Warning</Severity>
+              <Weight>27</Weight>
+              <Project>CourseSystem</Project>
+              <File>ManagementPresentationModel.cs</File>
+              <Line>154</Line>
+              <StartLine>0</StartLine>
+              <StartCol>0</StartCol>
+              <EndLine>0</EndLine>
+              <EndCol>0</EndCol>
+              <Comment />
+              <Auto>false</Auto>
+            </Smell>
+            <Smell>
+              <Id>32</Id>
+              <SmellType>ICS(空白與空行-7)</SmellType>
+              <HashCode>SpacingAndNewLine7</HashCode>
+              <Severity>Red</Severity>
+              <Weight>1</Weight>
+              <Project>CourseSystem</Project>
+              <File>ManagementView.cs</File>
+              <Line>216</Line>
+              <StartLine>0</StartLine>
+              <StartCol>0</StartCol>
+              <EndLine>0</EndLine>
+              <EndCol>0</EndCol>
+              <Comment>ICS(空白與空行-7) 二元運算子的前面與後面各加一個空白</Comment>
+              <Auto>false</Auto>
+            </Smell>
+            <Smell>
+              <Id>33</Id>
+              <SmellType>ICS(空白與空行-15)</SmellType>
+              <HashCode>SpacingAndNewLine15</HashCode>
+              <Severity>Red</Severity>
+              <Weight>1</Weight>
+              <Project>CourseSystem</Project>
+              <File>ManagementView.cs</File>
+              <Line>216</Line>
+              <StartLine>0</StartLine>
+              <StartCol>0</StartCol>
+              <EndLine>0</EndLine>
+              <EndCol>0</EndCol>
+              <Comment>ICS(空白與空行-15) 不亂加多個空白</Comment>
+              <Auto>false</Auto>
+            </Smell>
+            <Smell>
+              <Id>34</Id>
+              <SmellType>Unsuitable naming(名不符實)-CSIE_1_NAME(csie)</SmellType>
+              <HashCode>UnsuitableNaming.ManagementView.CSIE_1_NAME.CSIE_1_NAME</HashCode>
+              <Severity>Red</Severity>
+              <Weight>1</Weight>
+              <Project>CourseSystem</Project>
+              <File>ManagementView.cs</File>
+              <Line>18</Line>
+              <StartLine>0</StartLine>
+              <StartCol>0</StartCol>
+              <EndLine>0</EndLine>
+              <EndCol>0</EndCol>
+              <Comment />
+              <Auto>false</Auto>
+            </Smell>
+            <Smell>
+              <Id>35</Id>
+              <SmellType>Unsuitable naming(名不符實)-CSIE_2_NAME(csie)</SmellType>
+              <HashCode>UnsuitableNaming.ManagementView.CSIE_2_NAME.CSIE_2_NAME</HashCode>
+              <Severity>Red</Severity>
+              <Weight>1</Weight>
+              <Project>CourseSystem</Project>
+              <File>ManagementView.cs</File>
+              <Line>19</Line>
+              <StartLine>0</StartLine>
+              <StartCol>0</StartCol>
+              <EndLine>0</EndLine>
+              <EndCol>0</EndCol>
+              <Comment />
+              <Auto>false</Auto>
+            </Smell>
+            <Smell>
+              <Id>36</Id>
+              <SmellType>Unsuitable naming(名不符實)-CSIE_4_NAME(csie)</SmellType>
+              <HashCode>UnsuitableNaming.ManagementView.CSIE_4_NAME.CSIE_4_NAME</HashCode>
+              <Severity>Red</Severity>
+              <Weight>1</Weight>
+              <Project>CourseSystem</Project>
+              <File>ManagementView.cs</File>
+              <Line>20</Line>
+              <StartLine>0</StartLine>
+              <StartCol>0</StartCol>
+              <EndLine>0</EndLine>
+              <EndCol>0</EndCol>
+              <Comment />
+              <Auto>false</Auto>
+            </Smell>
+            <Smell>
+              <Id>37</Id>
+              <SmellType>Unsuitable naming(名不符實)-NUMBER_BACKSPACE(backspace)</SmellType>
+              <HashCode>UnsuitableNaming.ManagementView.NUMBER_BACKSPACE.NUMBER_BACKSPACE</HashCode>
+              <Severity>Red</Severity>
+              <Weight>1</Weight>
+              <Project>CourseSystem</Project>
+              <File>ManagementView.cs</File>
+              <Line>39</Line>
+              <StartLine>0</StartLine>
+              <StartCol>0</StartCol>
+              <EndLine>0</EndLine>
+              <EndCol>0</EndCol>
+              <Comment />
+              <Auto>false</Auto>
+            </Smell>
+            <Smell>
+              <Id>38</Id>
+              <SmellType>Large class(過大類別)</SmellType>
+              <HashCode>LargeClass.CourseSystem.Model.343</HashCode>
+              <Severity>Warning</Severity>
+              <Weight>343</Weight>
+              <Project>CourseSystem</Project>
+              <File>Model.cs</File>
+              <Line>14</Line>
+              <StartLine>0</StartLine>
+              <StartCol>0</StartCol>
+              <EndLine>0</EndLine>
+              <EndCol>0</EndCol>
+              <Comment />
+              <Auto>false</Auto>
+            </Smell>
+            <Smell>
+              <Id>39</Id>
+              <SmellType>Unsuitable naming(名不符實)-CLASS_CSIE(csie)</SmellType>
+              <HashCode>UnsuitableNaming.Model.CLASS_CSIE.CLASS_CSIE</HashCode>
+              <Severity>Red</Severity>
+              <Weight>1</Weight>
+              <Project>CourseSystem</Project>
+              <File>Model.cs</File>
+              <Line>31</Line>
+              <StartLine>0</StartLine>
+              <StartCol>0</StartCol>
+              <EndLine>0</EndLine>
+              <EndCol>0</EndCol>
+              <Comment />
+              <Auto>false</Auto>
+            </Smell>
+            <Smell>
+              <Id>40</Id>
+              <SmellType>Unsuitable naming(名不符實)-CLASS_EE(ee)</SmellType>
+              <HashCode>UnsuitableNaming.Model.CLASS_EE.CLASS_EE</HashCode>
+              <Severity>Red</Severity>
+              <Weight>1</Weight>
+              <Project>CourseSystem</Project>
+              <File>Model.cs</File>
+              <Line>32</Line>
+              <StartLine>0</StartLine>
+              <StartCol>0</StartCol>
+              <EndLine>0</EndLine>
+              <EndCol>0</EndCol>
+              <Comment />
+              <Auto>false</Auto>
+            </Smell>
+            <Smell>
+              <Id>41</Id>
+              <SmellType>Long method(過長函式)</SmellType>
+              <HashCode>LongMethod.Model.AddCourses.30List&lt;List&lt;int&gt;&gt; selectIndex;</HashCode>
+              <Severity>Warning</Severity>
+              <Weight>30</Weight>
+              <Project>CourseSystem</Project>
+              <File>Model.cs</File>
+              <Line>124</Line>
+              <StartLine>0</StartLine>
+              <StartCol>0</StartCol>
+              <EndLine>0</EndLine>
+              <EndCol>0</EndCol>
+              <Comment />
+              <Auto>false</Auto>
+            </Smell>
+            <Smell>
+              <Id>42</Id>
+              <SmellType>Long method(過長函式)</SmellType>
+              <HashCode>LongMethod.Model.ConstructSelectingTable.21</HashCode>
+              <Severity>Warning</Severity>
+              <Weight>21</Weight>
+              <Project>CourseSystem</Project>
+              <File>Model.cs</File>
+              <Line>195</Line>
+              <StartLine>0</StartLine>
+              <StartCol>0</StartCol>
+              <EndLine>0</EndLine>
+              <EndCol>0</EndCol>
+              <Comment />
+              <Auto>false</Auto>
+            </Smell>
+            <Smell>
+              <Id>43</Id>
+              <SmellType>Long method(過長函式)</SmellType>
+              <HashCode>LongMethod.Model.ModifyCourse.31CourseInfoDto modifyCourse;CourseInfoDto displayingCourse;</HashCode>
+              <Severity>Red</Severity>
+              <Weight>31</Weight>
+              <Project>CourseSystem</Project>
+              <File>Model.cs</File>
+              <Line>244</Line>
+              <StartLine>0</StartLine>
+              <StartCol>0</StartCol>
+              <EndLine>0</EndLine>
+              <EndCol>0</EndCol>
+              <Comment />
+              <Auto>false</Auto>
+            </Smell>
+            <Smell>
+              <Id>44</Id>
+              <SmellType>Long method(過長函式)</SmellType>
+              <HashCode>LongMethod.Model.DeleteCourse.22CourseInfoDto deleteCourse;</HashCode>
+              <Severity>Warning</Severity>
+              <Weight>22</Weight>
+              <Project>CourseSystem</Project>
+              <File>Model.cs</File>
+              <Line>314</Line>
+              <StartLine>0</StartLine>
+              <StartCol>0</StartCol>
+              <EndLine>0</EndLine>
+              <EndCol>0</EndCol>
+              <Comment />
+              <Auto>false</Auto>
+            </Smell>
+            <Smell>
+              <Id>45</Id>
+              <SmellType>ICS(空白與空行-17)</SmellType>
+              <HashCode>SpacingAndNewLine17.SelectPresentationModel.cs.3.        }.        // call observer</HashCode>
+              <Severity>Red</Severity>
+              <Weight>1</Weight>
+              <Project>CourseSystem</Project>
+              <File>SelectPresentationModel.cs</File>
+              <Line>177</Line>
+              <StartLine>0</StartLine>
+              <StartCol>0</StartCol>
+              <EndLine>0</EndLine>
+              <EndCol>0</EndCol>
+              <Comment>ICS(空白與空行-17) 一次不加多個空行(若發生時，則指定在多個空行的第一行即可)</Comment>
+              <Auto>false</Auto>
+            </Smell>
+            <Smell>
+              <Id>46</Id>
+              <SmellType>ICS(空白與空行-16)</SmellType>
+              <HashCode>SpacingAndNewLine16.SelectPresentationModel.NotifyObserver.2</HashCode>
+              <Severity>Red</Severity>
+              <Weight>1</Weight>
+              <Project>CourseSystem</Project>
+              <File>SelectPresentationModel.cs</File>
+              <Line>181</Line>
+              <StartLine>0</StartLine>
+              <StartCol>0</StartCol>
+              <EndLine>0</EndLine>
+              <EndCol>0</EndCol>
+              <Comment>ICS(空白與空行-16) 每個函式之間加一個空行</Comment>
+              <Auto>false</Auto>
+            </Smell>
+            <Smell>
+              <Id>47</Id>
+              <SmellType>Unsuitable naming(名不符實)-CLASSTIME_CONFLICT(classtime)</SmellType>
+              <HashCode>UnsuitableNaming.SelectPresentationModel.CLASSTIME_CONFLICT.CLASSTIME_CONFLICT</HashCode>
+              <Severity>Red</Severity>
+              <Weight>1</Weight>
+              <Project>CourseSystem</Project>
+              <File>SelectPresentationModel.cs</File>
+              <Line>22</Line>
+              <StartLine>0</StartLine>
+              <StartCol>0</StartCol>
+              <EndLine>0</EndLine>
+              <EndCol>0</EndCol>
+              <Comment />
+              <Auto>false</Auto>
+            </Smell>
+            <Smell>
+              <Id>48</Id>
+              <SmellType>Long method(過長函式)</SmellType>
+              <HashCode>LongMethod.SelectPresentationModel.ClickSend.25TabControl tabControl;</HashCode>
+              <Severity>Warning</Severity>
+              <Weight>25</Weight>
+              <Project>CourseSystem</Project>
+              <File>SelectPresentationModel.cs</File>
+              <Line>97</Line>
+              <StartLine>0</StartLine>
+              <StartCol>0</StartCol>
+              <EndLine>0</EndLine>
+              <EndCol>0</EndCol>
+              <Comment />
+              <Auto>false</Auto>
+            </Smell>
+            <Smell>
+              <Id>49</Id>
+              <SmellType>Long method(過長函式)</SmellType>
+              <HashCode>LongMethod.SelectPresentationModel.CheckCourseAdd.28List&lt;string&gt; message;string test;</HashCode>
+              <Severity>Warning</Severity>
+              <Weight>28</Weight>
+              <Project>CourseSystem</Project>
+              <File>SelectPresentationModel.cs</File>
+              <Line>124</Line>
+              <StartLine>0</StartLine>
+              <StartCol>0</StartCol>
+              <EndLine>0</EndLine>
+              <EndCol>0</EndCol>
+              <Comment />
+              <Auto>false</Auto>
+            </Smell>
+            <Smell>
+              <Id>50</Id>
+              <SmellType>Unsuitable naming(名不符實)-_tabPageCSIE(csie)</SmellType>
+              <HashCode>UnsuitableNaming.SelectView._tabPageCSIE._tabPageCSIE</HashCode>
+              <Severity>Red</Severity>
+              <Weight>1</Weight>
+              <Project>CourseSystem</Project>
+              <File>SelectView.Designer.cs</File>
+              <Line>164</Line>
+              <StartLine>0</StartLine>
+              <StartCol>0</StartCol>
+              <EndLine>0</EndLine>
+              <EndCol>0</EndCol>
+              <Comment />
+              <Auto>false</Auto>
+            </Smell>
+            <Smell>
+              <Id>51</Id>
+              <SmellType>Unsuitable naming(名不符實)-_tabPageEE(ee)</SmellType>
+              <HashCode>UnsuitableNaming.SelectView._tabPageEE._tabPageEE</HashCode>
+              <Severity>Red</Severity>
+              <Weight>1</Weight>
+              <Project>CourseSystem</Project>
+              <File>SelectView.Designer.cs</File>
+              <Line>165</Line>
+              <StartLine>0</StartLine>
+              <StartCol>0</StartCol>
+              <EndLine>0</EndLine>
+              <EndCol>0</EndCol>
+              <Comment />
+              <Auto>false</Auto>
+            </Smell>
+            <Smell>
+              <Id>52</Id>
+              <SmellType>Unsuitable naming(名不符實)-_dataGridViewEE(ee)</SmellType>
+              <HashCode>UnsuitableNaming.SelectView._dataGridViewEE._dataGridViewEE</HashCode>
+              <Severity>Red</Severity>
+              <Weight>1</Weight>
+              <Project>CourseSystem</Project>
+              <File>SelectView.Designer.cs</File>
+              <Line>166</Line>
+              <StartLine>0</StartLine>
+              <StartCol>0</StartCol>
+              <EndLine>0</EndLine>
+              <EndCol>0</EndCol>
+              <Comment />
+              <Auto>false</Auto>
+            </Smell>
+            <Smell>
+              <Id>53</Id>
+              <SmellType>Unsuitable naming(名不符實)-_dataGridViewCSIE(csie)</SmellType>
+              <HashCode>UnsuitableNaming.SelectView._dataGridViewCSIE._dataGridViewCSIE</HashCode>
+              <Severity>Red</Severity>
+              <Weight>1</Weight>
+              <Project>CourseSystem</Project>
+              <File>SelectView.Designer.cs</File>
+              <Line>167</Line>
+              <StartLine>0</StartLine>
+              <StartCol>0</StartCol>
+              <EndLine>0</EndLine>
+              <EndCol>0</EndCol>
+              <Comment />
+              <Auto>false</Auto>
+            </Smell>
+            <Smell>
+              <Id>54</Id>
+              <SmellType>Unsuitable naming(名不符實)-_checkBoxCSIE(csie)</SmellType>
+              <HashCode>UnsuitableNaming.SelectView._checkBoxCSIE._checkBoxCSIE</HashCode>
+              <Severity>Red</Severity>
+              <Weight>1</Weight>
+              <Project>CourseSystem</Project>
+              <File>SelectView.Designer.cs</File>
+              <Line>168</Line>
+              <StartLine>0</StartLine>
+              <StartCol>0</StartCol>
+              <EndLine>0</EndLine>
+              <EndCol>0</EndCol>
+              <Comment />
+              <Auto>false</Auto>
+            </Smell>
+            <Smell>
+              <Id>55</Id>
+              <SmellType>Unsuitable naming(名不符實)-_checkBoxEE(ee)</SmellType>
+              <HashCode>UnsuitableNaming.SelectView._checkBoxEE._checkBoxEE</HashCode>
+              <Severity>Red</Severity>
+              <Weight>1</Weight>
+              <Project>CourseSystem</Project>
+              <File>SelectView.Designer.cs</File>
+              <Line>169</Line>
+              <StartLine>0</StartLine>
+              <StartCol>0</StartCol>
+              <EndLine>0</EndLine>
+              <EndCol>0</EndCol>
+              <Comment />
+              <Auto>false</Auto>
+            </Smell>
+            <Smell>
+              <Id>56</Id>
+              <SmellType>Unsuitable naming(名不符實)-COURSE_ADDRESS_CSIE(csie)</SmellType>
+              <HashCode>UnsuitableNaming.WebCrawler.COURSE_ADDRESS_CSIE.COURSE_ADDRESS_CSIE</HashCode>
+              <Severity>Red</Severity>
+              <Weight>1</Weight>
+              <Project>CourseSystem</Project>
+              <File>WebCrawler.cs</File>
+              <Line>14</Line>
+              <StartLine>0</StartLine>
+              <StartCol>0</StartCol>
+              <EndLine>0</EndLine>
+              <EndCol>0</EndCol>
+              <Comment />
+              <Auto>false</Auto>
+            </Smell>
+            <Smell>
+              <Id>57</Id>
+              <SmellType>Unsuitable naming(名不符實)-COURSE_ADDRESS_EE(ee)</SmellType>
+              <HashCode>UnsuitableNaming.WebCrawler.COURSE_ADDRESS_EE.COURSE_ADDRESS_EE</HashCode>
+              <Severity>Red</Severity>
+              <Weight>1</Weight>
+              <Project>CourseSystem</Project>
+              <File>WebCrawler.cs</File>
+              <Line>15</Line>
+              <StartLine>0</StartLine>
+              <StartCol>0</StartCol>
+              <EndLine>0</EndLine>
+              <EndCol>0</EndCol>
+              <Comment />
+              <Auto>false</Auto>
+            </Smell>
+            <Smell>
+              <Id>58</Id>
+              <SmellType>Unsuitable naming(名不符實)-COURSE_ADDRESS_CSIE_1(csie)</SmellType>
+              <HashCode>UnsuitableNaming.WebCrawler.COURSE_ADDRESS_CSIE_1.COURSE_ADDRESS_CSIE_1</HashCode>
+              <Severity>Red</Severity>
+              <Weight>1</Weight>
+              <Project>CourseSystem</Project>
+              <File>WebCrawler.cs</File>
+              <Line>16</Line>
+              <StartLine>0</StartLine>
+              <StartCol>0</StartCol>
+              <EndLine>0</EndLine>
+              <EndCol>0</EndCol>
+              <Comment />
+              <Auto>false</Auto>
+            </Smell>
+            <Smell>
+              <Id>59</Id>
+              <SmellType>Unsuitable naming(名不符實)-COURSE_ADDRESS_CSIE_2(csie)</SmellType>
+              <HashCode>UnsuitableNaming.WebCrawler.COURSE_ADDRESS_CSIE_2.COURSE_ADDRESS_CSIE_2</HashCode>
+              <Severity>Red</Severity>
+              <Weight>1</Weight>
+              <Project>CourseSystem</Project>
+              <File>WebCrawler.cs</File>
+              <Line>17</Line>
+              <StartLine>0</StartLine>
+              <StartCol>0</StartCol>
+              <EndLine>0</EndLine>
+              <EndCol>0</EndCol>
+              <Comment />
+              <Auto>false</Auto>
+            </Smell>
+            <Smell>
+              <Id>60</Id>
+              <SmellType>Unsuitable naming(名不符實)-COURSE_ADDRESS_CSIE_4(csie)</SmellType>
+              <HashCode>UnsuitableNaming.WebCrawler.COURSE_ADDRESS_CSIE_4.COURSE_ADDRESS_CSIE_4</HashCode>
+              <Severity>Red</Severity>
+              <Weight>1</Weight>
+              <Project>CourseSystem</Project>
+              <File>WebCrawler.cs</File>
+              <Line>18</Line>
+              <StartLine>0</StartLine>
+              <StartCol>0</StartCol>
+              <EndLine>0</EndLine>
+              <EndCol>0</EndCol>
+              <Comment />
+              <Auto>false</Auto>
+            </Smell>
+            <Smell>
+              <Id>61</Id>
+              <SmellType>Unsuitable naming(名不符實)-CLASS_CSIE(csie)</SmellType>
+              <HashCode>UnsuitableNaming.WebCrawler.CLASS_CSIE.CLASS_CSIE</HashCode>
+              <Severity>Red</Severity>
+              <Weight>1</Weight>
+              <Project>CourseSystem</Project>
+              <File>WebCrawler.cs</File>
+              <Line>19</Line>
+              <StartLine>0</StartLine>
+              <StartCol>0</StartCol>
+              <EndLine>0</EndLine>
+              <EndCol>0</EndCol>
+              <Comment />
+              <Auto>false</Auto>
+            </Smell>
+            <Smell>
+              <Id>62</Id>
+              <SmellType>Unsuitable naming(名不符實)-CLASS_CSIE_1(csie)</SmellType>
+              <HashCode>UnsuitableNaming.WebCrawler.CLASS_CSIE_1.CLASS_CSIE_1</HashCode>
+              <Severity>Red</Severity>
+              <Weight>1</Weight>
+              <Project>CourseSystem</Project>
+              <File>WebCrawler.cs</File>
+              <Line>20</Line>
+              <StartLine>0</StartLine>
+              <StartCol>0</StartCol>
+              <EndLine>0</EndLine>
+              <EndCol>0</EndCol>
+              <Comment />
+              <Auto>false</Auto>
+            </Smell>
+            <Smell>
+              <Id>63</Id>
+              <SmellType>Unsuitable naming(名不符實)-CLASS_CSIE_2(csie)</SmellType>
+              <HashCode>UnsuitableNaming.WebCrawler.CLASS_CSIE_2.CLASS_CSIE_2</HashCode>
+              <Severity>Red</Severity>
+              <Weight>1</Weight>
+              <Project>CourseSystem</Project>
+              <File>WebCrawler.cs</File>
+              <Line>21</Line>
+              <StartLine>0</StartLine>
+              <StartCol>0</StartCol>
+              <EndLine>0</EndLine>
+              <EndCol>0</EndCol>
+              <Comment />
+              <Auto>false</Auto>
+            </Smell>
+            <Smell>
+              <Id>64</Id>
+              <SmellType>Unsuitable naming(名不符實)-CLASS_CSIE_4(csie)</SmellType>
+              <HashCode>UnsuitableNaming.WebCrawler.CLASS_CSIE_4.CLASS_CSIE_4</HashCode>
+              <Severity>Red</Severity>
+              <Weight>1</Weight>
+              <Project>CourseSystem</Project>
+              <File>WebCrawler.cs</File>
+              <Line>22</Line>
+              <StartLine>0</StartLine>
+              <StartCol>0</StartCol>
+              <EndLine>0</EndLine>
+              <EndCol>0</EndCol>
+              <Comment />
+              <Auto>false</Auto>
+            </Smell>
+            <Smell>
+              <Id>65</Id>
+              <SmellType>Unsuitable naming(名不符實)-CLASS_EE(ee)</SmellType>
+              <HashCode>UnsuitableNaming.WebCrawler.CLASS_EE.CLASS_EE</HashCode>
+              <Severity>Red</Severity>
+              <Weight>1</Weight>
+              <Project>CourseSystem</Project>
+              <File>WebCrawler.cs</File>
+              <Line>23</Line>
+              <StartLine>0</StartLine>
+              <StartCol>0</StartCol>
+              <EndLine>0</EndLine>
+              <EndCol>0</EndCol>
+              <Comment />
+              <Auto>false</Auto>
+            </Smell>
+            <Smell>
+              <Id>66</Id>
+              <SmellType>Unsuitable naming(名不符實)-CSIE_NAME(csie)</SmellType>
+              <HashCode>UnsuitableNaming.WebCrawler.CSIE_NAME.CSIE_NAME</HashCode>
+              <Severity>Red</Severity>
+              <Weight>1</Weight>
+              <Project>CourseSystem</Project>
+              <File>WebCrawler.cs</File>
+              <Line>48</Line>
+              <StartLine>0</StartLine>
+              <StartCol>0</StartCol>
+              <EndLine>0</EndLine>
+              <EndCol>0</EndCol>
+              <Comment />
+              <Auto>false</Auto>
+            </Smell>
+            <Smell>
+              <Id>67</Id>
+              <SmellType>Unsuitable naming(名不符實)-EE_NAME(ee)</SmellType>
+              <HashCode>UnsuitableNaming.WebCrawler.EE_NAME.EE_NAME</HashCode>
+              <Severity>Red</Severity>
+              <Weight>1</Weight>
+              <Project>CourseSystem</Project>
+              <File>WebCrawler.cs</File>
+              <Line>49</Line>
+              <StartLine>0</StartLine>
+              <StartCol>0</StartCol>
+              <EndLine>0</EndLine>
+              <EndCol>0</EndCol>
+              <Comment />
+              <Auto>false</Auto>
+            </Smell>
+            <Smell>
+              <Id>68</Id>
+              <SmellType>Unsuitable naming(名不符實)-CSIE_1_NAME(csie)</SmellType>
+              <HashCode>UnsuitableNaming.WebCrawler.CSIE_1_NAME.CSIE_1_NAME</HashCode>
+              <Severity>Red</Severity>
+              <Weight>1</Weight>
+              <Project>CourseSystem</Project>
+              <File>WebCrawler.cs</File>
+              <Line>50</Line>
+              <StartLine>0</StartLine>
+              <StartCol>0</StartCol>
+              <EndLine>0</EndLine>
+              <EndCol>0</EndCol>
+              <Comment />
+              <Auto>false</Auto>
+            </Smell>
+            <Smell>
+              <Id>69</Id>
+              <SmellType>Unsuitable naming(名不符實)-CSIE_2_NAME(csie)</SmellType>
+              <HashCode>UnsuitableNaming.WebCrawler.CSIE_2_NAME.CSIE_2_NAME</HashCode>
+              <Severity>Red</Severity>
+              <Weight>1</Weight>
+              <Project>CourseSystem</Project>
+              <File>WebCrawler.cs</File>
+              <Line>51</Line>
+              <StartLine>0</StartLine>
+              <StartCol>0</StartCol>
+              <EndLine>0</EndLine>
+              <EndCol>0</EndCol>
+              <Comment />
+              <Auto>false</Auto>
+            </Smell>
+            <Smell>
+              <Id>70</Id>
+              <SmellType>Unsuitable naming(名不符實)-CSIE_4_NAME(csie)</SmellType>
+              <HashCode>UnsuitableNaming.WebCrawler.CSIE_4_NAME.CSIE_4_NAME</HashCode>
+              <Severity>Red</Severity>
+              <Weight>1</Weight>
+              <Project>CourseSystem</Project>
+              <File>WebCrawler.cs</File>
+              <Line>52</Line>
+              <StartLine>0</StartLine>
+              <StartCol>0</StartCol>
+              <EndLine>0</EndLine>
+              <EndCol>0</EndCol>
+              <Comment />
+              <Auto>false</Auto>
+            </Smell>
+            <Smell>
+              <Id>71</Id>
+              <SmellType>Long method(過長函式)</SmellType>
+              <HashCode>LongMethod.WebCrawler.GetCourseInfo.29string className;</HashCode>
+              <Severity>Warning</Severity>
+              <Weight>29</Weight>
+              <Project>CourseSystem</Project>
+              <File>WebCrawler.cs</File>
+              <Line>55</Line>
+              <StartLine>0</StartLine>
+              <StartCol>0</StartCol>
+              <EndLine>0</EndLine>
+              <EndCol>0</EndCol>
+              <Comment />
+              <Auto>false</Auto>
+            </Smell>
+            <Smell>
+              <Id>72</Id>
+              <SmellType>A syntax error has been discovered in file C:\Users\洪子翔\Desktop\大三上-視窗程式設計\CourseSystem\CourseSystemTests\Robot.cs on line 118.</SmellType>
+              <Severity>Red</Severity>
+              <Weight>1</Weight>
+              <Project>CourseSystemTests</Project>
+              <File>Robot.cs</File>
+              <Line>118</Line>
+              <StartLine>0</StartLine>
+              <StartCol>0</StartCol>
+              <EndLine>0</EndLine>
+              <EndCol>0</EndCol>
+              <Comment />
+              <Auto>false</Auto>
+            </Smell>
+            <Smell>
+              <Id>73</Id>
+              <SmellType>Feature Envy(依戀情節)</SmellType>
+              <HashCode>83 目前物件 CourseSystem.SelectView，使用物件的方法或屬性次數：3次，Envy到對象物件 CourseSystem.SelectPresentationModel，使用物件方法或屬性次數：4次，使用到的方法或屬性為以下：CourseSystem.SelectPresentationModel.GetDataGridView(int) 以及 CourseSystem.SelectPresentationModel.GetDataGridView(int) 以及 CourseSystem.SelectPresentationModel.SetHeaderText(System.Windows.Forms.DataGridView) 以及 CourseSystem.SelectPresentationModel.GetSelectingCourseInfos()</HashCode>
+              <Severity>Red</Severity>
+              <Weight>1</Weight>
+              <Project>CourseSystem</Project>
+              <File>C:\Users\洪子翔\Desktop\大三上-視窗程式設計\CourseSystem\CourseSystem\SelectView.cs</File>
+              <Line>83</Line>
+              <StartLine>82</StartLine>
+              <StartCol>0</StartCol>
+              <EndLine>83</EndLine>
+              <EndCol>0</EndCol>
+              <Comment>目前物件 CourseSystem.SelectView，使用物件的方法或屬性次數：3次，Envy到對象物件 CourseSystem.SelectPresentationModel，使用物件方法或屬性次數：4次，使用到的方法或屬性為以下：CourseSystem.SelectPresentationModel.GetDataGridView(int) 以及 CourseSystem.SelectPresentationModel.GetDataGridView(int) 以及 CourseSystem.SelectPresentationModel.SetHeaderText(System.Windows.Forms.DataGridView) 以及 CourseSystem.SelectPresentationModel.GetSelectingCourseInfos()</Comment>
+              <Auto>false</Auto>
+            </Smell>
+            <Smell>
+              <Id>74</Id>
+              <SmellType>Feature Envy(依戀情節)</SmellType>
+              <HashCode>91 目前物件 CourseSystem.WebCrawler，使用物件的方法或屬性次數：0次，Envy到對象物件 HtmlAgilityPack.HtmlNodeCollection，使用物件方法或屬性次數：2次，使用到的方法或屬性為以下：HtmlAgilityPack.HtmlNodeCollection.Count 以及 HtmlAgilityPack.HtmlNodeCollection.RemoveAt(int)</HashCode>
+              <Severity>Warning</Severity>
+              <Weight>1</Weight>
+              <Project>CourseSystem</Project>
+              <File>C:\Users\洪子翔\Desktop\大三上-視窗程式設計\CourseSystem\CourseSystem\WebCrawler.cs</File>
+              <Line>91</Line>
+              <StartLine>90</StartLine>
+              <StartCol>0</StartCol>
+              <EndLine>91</EndLine>
+              <EndCol>0</EndCol>
+              <Comment>目前物件 CourseSystem.WebCrawler，使用物件的方法或屬性次數：0次，Envy到對象物件 HtmlAgilityPack.HtmlNodeCollection，使用物件方法或屬性次數：2次，使用到的方法或屬性為以下：HtmlAgilityPack.HtmlNodeCollection.Count 以及 HtmlAgilityPack.HtmlNodeCollection.RemoveAt(int)</Comment>
+              <Auto>false</Auto>
+            </Smell>
+            <Smell>
+              <Id>75</Id>
+              <SmellType>Feature Envy(依戀情節)</SmellType>
+              <HashCode>37 目前物件 CourseSystem.ImportPresentationModel，使用物件的方法或屬性次數：0次，Envy到對象物件 CourseSystem.Model，使用物件方法或屬性次數：2次，使用到的方法或屬性為以下：CourseSystem.Model.DownloadSingleClass(string) 以及 CourseSystem.Model.CourseInfos</HashCode>
+              <Severity>Warning</Severity>
+              <Weight>1</Weight>
+              <Project>CourseSystem</Project>
+              <File>C:\Users\洪子翔\Desktop\大三上-視窗程式設計\CourseSystem\CourseSystem\ImportPresentationModel.cs</File>
+              <Line>37</Line>
+              <StartLine>36</StartLine>
+              <StartCol>0</StartCol>
+              <EndLine>37</EndLine>
+              <EndCol>0</EndCol>
+              <Comment>目前物件 CourseSystem.ImportPresentationModel，使用物件的方法或屬性次數：0次，Envy到對象物件 CourseSystem.Model，使用物件方法或屬性次數：2次，使用到的方法或屬性為以下：CourseSystem.Model.DownloadSingleClass(string) 以及 CourseSystem.Model.CourseInfos</Comment>
+              <Auto>false</Auto>
+            </Smell>
+            <Smell>
+              <Id>76</Id>
+              <SmellType>Feature Envy(依戀情節)</SmellType>
+              <HashCode>40 目前物件 CourseSystem.ImportPresentationModel，使用物件的方法或屬性次數：0次，Envy到對象物件 CourseSystem.Model，使用物件方法或屬性次數：2次，使用到的方法或屬性為以下：CourseSystem.Model.DownloadSingleClass(string) 以及 CourseSystem.Model.CourseInfos</HashCode>
+              <Severity>Warning</Severity>
+              <Weight>1</Weight>
+              <Project>CourseSystem</Project>
+              <File>C:\Users\洪子翔\Desktop\大三上-視窗程式設計\CourseSystem\CourseSystem\ImportPresentationModel.cs</File>
+              <Line>40</Line>
+              <StartLine>39</StartLine>
+              <StartCol>0</StartCol>
+              <EndLine>40</EndLine>
+              <EndCol>0</EndCol>
+              <Comment>目前物件 CourseSystem.ImportPresentationModel，使用物件的方法或屬性次數：0次，Envy到對象物件 CourseSystem.Model，使用物件方法或屬性次數：2次，使用到的方法或屬性為以下：CourseSystem.Model.DownloadSingleClass(string) 以及 CourseSystem.Model.CourseInfos</Comment>
+              <Auto>false</Auto>
+            </Smell>
+            <Smell>
+              <Id>77</Id>
+              <SmellType>Feature Envy(依戀情節)</SmellType>
+              <HashCode>43 目前物件 CourseSystem.ImportPresentationModel，使用物件的方法或屬性次數：0次，Envy到對象物件 CourseSystem.Model，使用物件方法或屬性次數：2次，使用到的方法或屬性為以下：CourseSystem.Model.DownloadSingleClass(string) 以及 CourseSystem.Model.CourseInfos</HashCode>
+              <Severity>Warning</Severity>
+              <Weight>1</Weight>
+              <Project>CourseSystem</Project>
+              <File>C:\Users\洪子翔\Desktop\大三上-視窗程式設計\CourseSystem\CourseSystem\ImportPresentationModel.cs</File>
+              <Line>43</Line>
+              <StartLine>42</StartLine>
+              <StartCol>0</StartCol>
+              <EndLine>43</EndLine>
+              <EndCol>0</EndCol>
+              <Comment>目前物件 CourseSystem.ImportPresentationModel，使用物件的方法或屬性次數：0次，Envy到對象物件 CourseSystem.Model，使用物件方法或屬性次數：2次，使用到的方法或屬性為以下：CourseSystem.Model.DownloadSingleClass(string) 以及 CourseSystem.Model.CourseInfos</Comment>
+              <Auto>false</Auto>
+            </Smell>
+            <Smell>
+              <Id>78</Id>
+              <SmellType>Feature Envy(依戀情節)</SmellType>
+              <HashCode>66 目前物件 CourseSystem.Model，使用物件的方法或屬性次數：0次，Envy到對象物件 CourseSystem.Class，使用物件方法或屬性次數：2次，使用到的方法或屬性為以下：CourseSystem.Class.CourseInfo 以及 CourseSystem.Class.AddCourse(CourseSystem.CourseInfoDto)</HashCode>
+              <Severity>Warning</Severity>
+              <Weight>1</Weight>
+              <Project>CourseSystem</Project>
+              <File>C:\Users\洪子翔\Desktop\大三上-視窗程式設計\CourseSystem\CourseSystem\Model.cs</File>
+              <Line>66</Line>
+              <StartLine>65</StartLine>
+              <StartCol>0</StartCol>
+              <EndLine>66</EndLine>
+              <EndCol>0</EndCol>
+              <Comment>目前物件 CourseSystem.Model，使用物件的方法或屬性次數：0次，Envy到對象物件 CourseSystem.Class，使用物件方法或屬性次數：2次，使用到的方法或屬性為以下：CourseSystem.Class.CourseInfo 以及 CourseSystem.Class.AddCourse(CourseSystem.CourseInfoDto)</Comment>
+              <Auto>false</Auto>
+            </Smell>
+            <Smell>
+              <Id>79</Id>
+              <SmellType>Feature Envy(依戀情節)</SmellType>
+              <HashCode>254 目前物件 CourseSystem.Model，使用物件的方法或屬性次數：0次，Envy到對象物件 CourseSystem.CourseInfoDto，使用物件方法或屬性次數：2次，使用到的方法或屬性為以下：CourseSystem.CourseInfoDto.CheckClassChineseName(CourseSystem.CourseInfoDto, CourseSystem.CourseInfoDto) 以及 CourseSystem.CourseInfoDto.CheckSameCourse(CourseSystem.CourseInfoDto, CourseSystem.CourseInfoDto)</HashCode>
+              <Severity>Warning</Severity>
+              <Weight>1</Weight>
+              <Project>CourseSystem</Project>
+              <File>C:\Users\洪子翔\Desktop\大三上-視窗程式設計\CourseSystem\CourseSystem\Model.cs</File>
+              <Line>254</Line>
+              <StartLine>254</StartLine>
+              <StartCol>28</StartCol>
+              <EndLine>254</EndLine>
+              <EndCol>85</EndCol>
+              <Comment>目前物件 CourseSystem.Model，使用物件的方法或屬性次數：0次，Envy到對象物件 CourseSystem.CourseInfoDto，使用物件方法或屬性次數：2次，使用到的方法或屬性為以下：CourseSystem.CourseInfoDto.CheckClassChineseName(CourseSystem.CourseInfoDto, CourseSystem.CourseInfoDto) 以及 CourseSystem.CourseInfoDto.CheckSameCourse(CourseSystem.CourseInfoDto, CourseSystem.CourseInfoDto)</Comment>
+              <Auto>false</Auto>
+            </Smell>
+            <Smell>
+              <Id>80</Id>
+              <SmellType>Feature Envy(依戀情節)</SmellType>
+              <HashCode>138 目前物件 CourseSystem.Tests.Robot，使用物件的方法或屬性次數：0次，Envy到對象物件 OpenQA.Selenium.Appium.AppiumWebElement，使用物件方法或屬性次數：2次，使用到的方法或屬性為以下：OpenQA.Selenium.Appium.AppiumWebElement.FindElementByName(string) 以及 OpenQA.Selenium.Appium.AppiumWebElement.FindElementsByXPath(string)</HashCode>
+              <Severity>Warning</Severity>
+              <Weight>1</Weight>
+              <Project>CourseSystemTests</Project>
+              <File>C:\Users\洪子翔\Desktop\大三上-視窗程式設計\CourseSystem\CourseSystemTests\Robot.cs</File>
+              <Line>138</Line>
+              <StartLine>138</StartLine>
+              <StartCol>16</StartCol>
+              <EndLine>138</EndLine>
+              <EndCol>103</EndCol>
+              <Comment>目前物件 CourseSystem.Tests.Robot，使用物件的方法或屬性次數：0次，Envy到對象物件 OpenQA.Selenium.Appium.AppiumWebElement，使用物件方法或屬性次數：2次，使用到的方法或屬性為以下：OpenQA.Selenium.Appium.AppiumWebElement.FindElementByName(string) 以及 OpenQA.Selenium.Appium.AppiumWebElement.FindElementsByXPath(string)</Comment>
+              <Auto>false</Auto>
+            </Smell>
+            <Smell>
+              <Id>81</Id>
+              <SmellType>Feature Envy(依戀情節)</SmellType>
+              <HashCode>141 目前物件 CourseSystem.Tests.Robot，使用物件的方法或屬性次數：0次，Envy到對象物件 OpenQA.Selenium.Appium.AppiumWebElement，使用物件方法或屬性次數：2次，使用到的方法或屬性為以下：OpenQA.Selenium.Appium.AppiumWebElement.FindElementByName(string) 以及 OpenQA.Selenium.Appium.AppiumWebElement.FindElementsByXPath(string)</HashCode>
+              <Severity>Warning</Severity>
+              <Weight>1</Weight>
+              <Project>CourseSystemTests</Project>
+              <File>C:\Users\洪子翔\Desktop\大三上-視窗程式設計\CourseSystem\CourseSystemTests\Robot.cs</File>
+              <Line>141</Line>
+              <StartLine>141</StartLine>
+              <StartCol>28</StartCol>
+              <EndLine>141</EndLine>
+              <EndCol>46</EndCol>
+              <Comment>目前物件 CourseSystem.Tests.Robot，使用物件的方法或屬性次數：0次，Envy到對象物件 OpenQA.Selenium.Appium.AppiumWebElement，使用物件方法或屬性次數：2次，使用到的方法或屬性為以下：OpenQA.Selenium.Appium.AppiumWebElement.FindElementByName(string) 以及 OpenQA.Selenium.Appium.AppiumWebElement.FindElementsByXPath(string)</Comment>
+              <Auto>false</Auto>
+            </Smell>
+            <Smell>
+              <Id>82</Id>
+              <SmellType>Feature Envy(依戀情節)</SmellType>
+              <HashCode>213 目前物件 CourseSystem.Tests.Robot，使用物件的方法或屬性次數：0次，Envy到對象物件 OpenQA.Selenium.Appium.AppiumWebElement，使用物件方法或屬性次數：2次，使用到的方法或屬性為以下：OpenQA.Selenium.Appium.AppiumWebElement.TagName 以及 OpenQA.Selenium.Appium.AppiumWebElement.Text</HashCode>
+              <Severity>Warning</Severity>
+              <Weight>1</Weight>
+              <Project>CourseSystemTests</Project>
+              <File>C:\Users\洪子翔\Desktop\大三上-視窗程式設計\CourseSystem\CourseSystemTests\Robot.cs</File>
+              <Line>213</Line>
+              <StartLine>213</StartLine>
+              <StartCol>20</StartCol>
+              <EndLine>213</EndLine>
+              <EndCol>87</EndCol>
+              <Comment>目前物件 CourseSystem.Tests.Robot，使用物件的方法或屬性次數：0次，Envy到對象物件 OpenQA.Selenium.Appium.AppiumWebElement，使用物件方法或屬性次數：2次，使用到的方法或屬性為以下：OpenQA.Selenium.Appium.AppiumWebElement.TagName 以及 OpenQA.Selenium.Appium.AppiumWebElement.Text</Comment>
+              <Auto>false</Auto>
+            </Smell>
+          </Reviews>
+          <HashCodeIgnoreList />
+          <HashCodeRequestIgnoreList />
+          <AnalysisFileManager>
+            <AnalysisFiles>
+              <AnalysisFile>
+                <RelativePath>Class.cs</RelativePath>
+                <ProjectName>CourseSystem</ProjectName>
+                <AnalysisFileType>Model</AnalysisFileType>
+              </AnalysisFile>
+              <AnalysisFile>
+                <RelativePath>CourseInfoDto.cs</RelativePath>
+                <ProjectName>CourseSystem</ProjectName>
+                <AnalysisFileType>Model</AnalysisFileType>
+              </AnalysisFile>
+              <AnalysisFile>
+                <RelativePath>ImportCourseProgressView.cs</RelativePath>
+                <ProjectName>CourseSystem</ProjectName>
+                <AnalysisFileType>Model</AnalysisFileType>
+              </AnalysisFile>
+              <AnalysisFile>
+                <RelativePath>ImportCourseProgressView.Designer.cs</RelativePath>
+                <ProjectName>CourseSystem</ProjectName>
+                <AnalysisFileType>Designer</AnalysisFileType>
+              </AnalysisFile>
+              <AnalysisFile>
+                <RelativePath>ImportPresentationModel.cs</RelativePath>
+                <ProjectName>CourseSystem</ProjectName>
+                <AnalysisFileType>Model</AnalysisFileType>
+              </AnalysisFile>
+              <AnalysisFile>
+                <RelativePath>ManagementPresentationModel.cs</RelativePath>
+                <ProjectName>CourseSystem</ProjectName>
+                <AnalysisFileType>Model</AnalysisFileType>
+              </AnalysisFile>
+              <AnalysisFile>
+                <RelativePath>ManagementView.cs</RelativePath>
+                <ProjectName>CourseSystem</ProjectName>
+                <AnalysisFileType>Model</AnalysisFileType>
+              </AnalysisFile>
+              <AnalysisFile>
+                <RelativePath>ManagementView.Designer.cs</RelativePath>
+                <ProjectName>CourseSystem</ProjectName>
+                <AnalysisFileType>Designer</AnalysisFileType>
+              </AnalysisFile>
+              <AnalysisFile>
+                <RelativePath>Model.cs</RelativePath>
+                <ProjectName>CourseSystem</ProjectName>
+                <AnalysisFileType>Model</AnalysisFileType>
+              </AnalysisFile>
+              <AnalysisFile>
+                <RelativePath>Program.cs</RelativePath>
+                <ProjectName>CourseSystem</ProjectName>
+                <AnalysisFileType>ViewOrController</AnalysisFileType>
+              </AnalysisFile>
+              <AnalysisFile>
+                <RelativePath>Properties\AssemblyInfo.cs</RelativePath>
+                <ProjectName>CourseSystem</ProjectName>
+                <AnalysisFileType>Model</AnalysisFileType>
+              </AnalysisFile>
+              <AnalysisFile>
+                <RelativePath>SelectPresentationModel.cs</RelativePath>
+                <ProjectName>CourseSystem</ProjectName>
+                <AnalysisFileType>Model</AnalysisFileType>
+              </AnalysisFile>
+              <AnalysisFile>
+                <RelativePath>SelectResultPresentationModel.cs</RelativePath>
+                <ProjectName>CourseSystem</ProjectName>
+                <AnalysisFileType>Model</AnalysisFileType>
+              </AnalysisFile>
+              <AnalysisFile>
+                <RelativePath>SelectResultView.cs</RelativePath>
+                <ProjectName>CourseSystem</ProjectName>
+                <AnalysisFileType>Model</AnalysisFileType>
+              </AnalysisFile>
+              <AnalysisFile>
+                <RelativePath>SelectResultView.Designer.cs</RelativePath>
+                <ProjectName>CourseSystem</ProjectName>
+                <AnalysisFileType>Designer</AnalysisFileType>
+              </AnalysisFile>
+              <AnalysisFile>
+                <RelativePath>SelectView.cs</RelativePath>
+                <ProjectName>CourseSystem</ProjectName>
+                <AnalysisFileType>Model</AnalysisFileType>
+              </AnalysisFile>
+              <AnalysisFile>
+                <RelativePath>SelectView.Designer.cs</RelativePath>
+                <ProjectName>CourseSystem</ProjectName>
+                <AnalysisFileType>Designer</AnalysisFileType>
+              </AnalysisFile>
+              <AnalysisFile>
+                <RelativePath>StartUpPresentationModel.cs</RelativePath>
+                <ProjectName>CourseSystem</ProjectName>
+                <AnalysisFileType>Model</AnalysisFileType>
+              </AnalysisFile>
+              <AnalysisFile>
+                <RelativePath>StartUpView.cs</RelativePath>
+                <ProjectName>CourseSystem</ProjectName>
+                <AnalysisFileType>Model</AnalysisFileType>
+              </AnalysisFile>
+              <AnalysisFile>
+                <RelativePath>StartUpView.Designer.cs</RelativePath>
+                <ProjectName>CourseSystem</ProjectName>
+                <AnalysisFileType>Designer</AnalysisFileType>
+              </AnalysisFile>
+              <AnalysisFile>
+                <RelativePath>WebCrawler.cs</RelativePath>
+                <ProjectName>CourseSystem</ProjectName>
+                <AnalysisFileType>Model</AnalysisFileType>
+              </AnalysisFile>
+              <AnalysisFile>
+                <RelativePath>ClassTests.cs</RelativePath>
+                <ProjectName>CourseSystemTests</ProjectName>
+                <AnalysisFileType>Test</AnalysisFileType>
+              </AnalysisFile>
+              <AnalysisFile>
+                <RelativePath>CourseInfoDtoTests.cs</RelativePath>
+                <ProjectName>CourseSystemTests</ProjectName>
+                <AnalysisFileType>Test</AnalysisFileType>
+              </AnalysisFile>
+              <AnalysisFile>
+                <RelativePath>ImportPresentationModelTests.cs</RelativePath>
+                <ProjectName>CourseSystemTests</ProjectName>
+                <AnalysisFileType>Test</AnalysisFileType>
+              </AnalysisFile>
+              <AnalysisFile>
+                <RelativePath>ManagementPresentationModelTests.cs</RelativePath>
+                <ProjectName>CourseSystemTests</ProjectName>
+                <AnalysisFileType>Test</AnalysisFileType>
+              </AnalysisFile>
+              <AnalysisFile>
+                <RelativePath>ModelTests.cs</RelativePath>
+                <ProjectName>CourseSystemTests</ProjectName>
+                <AnalysisFileType>Test</AnalysisFileType>
+              </AnalysisFile>
+              <AnalysisFile>
+                <RelativePath>Properties\AssemblyInfo.cs</RelativePath>
+                <ProjectName>CourseSystemTests</ProjectName>
+                <AnalysisFileType>Model</AnalysisFileType>
+              </AnalysisFile>
+              <AnalysisFile>
+                <RelativePath>Robot.cs</RelativePath>
+                <ProjectName>CourseSystemTests</ProjectName>
+                <AnalysisFileType>Model</AnalysisFileType>
+              </AnalysisFile>
+              <AnalysisFile>
+                <RelativePath>SelectPresentationModelTests.cs</RelativePath>
+                <ProjectName>CourseSystemTests</ProjectName>
+                <AnalysisFileType>Test</AnalysisFileType>
+              </AnalysisFile>
+              <AnalysisFile>
+                <RelativePath>SelectResultPresentationModelTests.cs</RelativePath>
+                <ProjectName>CourseSystemTests</ProjectName>
+                <AnalysisFileType>Test</AnalysisFileType>
+              </AnalysisFile>
+              <AnalysisFile>
+                <RelativePath>StartUpPresentationModelTests.cs</RelativePath>
+                <ProjectName>CourseSystemTests</ProjectName>
+                <AnalysisFileType>Test</AnalysisFileType>
+              </AnalysisFile>
+              <AnalysisFile>
+                <RelativePath>UITest.cs</RelativePath>
+                <ProjectName>CourseSystemTests</ProjectName>
+                <AnalysisFileType>Test</AnalysisFileType>
+              </AnalysisFile>
+              <AnalysisFile>
+                <RelativePath>WebCrawlerTests.cs</RelativePath>
+                <ProjectName>CourseSystemTests</ProjectName>
+                <AnalysisFileType>Test</AnalysisFileType>
+              </AnalysisFile>
+            </AnalysisFiles>
+          </AnalysisFileManager>
+          <ProductionLoc>3876</ProductionLoc>
+          <TestLoc>1293</TestLoc>
+        </CodeReview>
+      </Data>
+    </div>
+  </body>
+</html>

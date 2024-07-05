@@ -1,0 +1,22 @@
+C:\Users\Woei-Kae\Desktop\DataBinding - List Data Source\DataBinding - List Data Source\bin\Debug\DataBinding - List Data Source.exe.config
+C:\Users\Woei-Kae\Desktop\DataBinding - List Data Source\DataBinding - List Data Source\bin\Debug\DataBinding - List Data Source.exe
+C:\Users\Woei-Kae\Desktop\DataBinding - List Data Source\DataBinding - List Data Source\bin\Debug\DataBinding - List Data Source.pdb
+C:\Users\Woei-Kae\Desktop\DataBinding - List Data Source\DataBinding - List Data Source\obj\Debug\DataBinding - List Data Source.csprojResolveAssemblyReference.cache
+C:\Users\Woei-Kae\Desktop\DataBinding - List Data Source\DataBinding - List Data Source\obj\Debug\DataBinding___List_Data_Source.Properties.Resources.resources
+C:\Users\Woei-Kae\Desktop\DataBinding - List Data Source\DataBinding - List Data Source\obj\Debug\DataBinding - List Data Source.csproj.GenerateResource.Cache
+C:\Users\Woei-Kae\Desktop\DataBinding - List Data Source\DataBinding - List Data Source\obj\Debug\DataBinding - List Data Source.exe
+C:\Users\Woei-Kae\Desktop\DataBinding - List Data Source\DataBinding - List Data Source\obj\Debug\DataBinding - List Data Source.pdb
+C:\Users\Woei-Kae\Desktop\DataBinding - List Data Source\DataBinding - List Data Source\obj\Debug\DataBinding.Form1.resources
+C:\Work\text\lecture\Windows Programming\Example Code\DataBinding - List Data Source\DataBinding - List Data Source\bin\Debug\DataBinding - List Data Source.exe.config
+C:\Work\text\lecture\Windows Programming\Example Code\DataBinding - List Data Source\DataBinding - List Data Source\obj\Debug\DataBinding - List Data Source.exe
+C:\Work\text\lecture\Windows Programming\Example Code\DataBinding - List Data Source\DataBinding - List Data Source\obj\Debug\DataBinding - List Data Source.pdb
+C:\Users\洪子翔\Desktop\大三上-視窗程式設計\Databinding examples\DataBinding - List Data Source\DataBinding - List Data Source\bin\Debug\DataBinding - List Data Source.exe.config
+C:\Users\洪子翔\Desktop\大三上-視窗程式設計\Databinding examples\DataBinding - List Data Source\DataBinding - List Data Source\bin\Debug\DataBinding - List Data Source.exe
+C:\Users\洪子翔\Desktop\大三上-視窗程式設計\Databinding examples\DataBinding - List Data Source\DataBinding - List Data Source\bin\Debug\DataBinding - List Data Source.pdb
+C:\Users\洪子翔\Desktop\大三上-視窗程式設計\Databinding examples\DataBinding - List Data Source\DataBinding - List Data Source\obj\Debug\DataBinding - List Data Source.csproj.AssemblyReference.cache
+C:\Users\洪子翔\Desktop\大三上-視窗程式設計\Databinding examples\DataBinding - List Data Source\DataBinding - List Data Source\obj\Debug\DataBinding.Form1.resources
+C:\Users\洪子翔\Desktop\大三上-視窗程式設計\Databinding examples\DataBinding - List Data Source\DataBinding - List Data Source\obj\Debug\DataBinding___List_Data_Source.Properties.Resources.resources
+C:\Users\洪子翔\Desktop\大三上-視窗程式設計\Databinding examples\DataBinding - List Data Source\DataBinding - List Data Source\obj\Debug\DataBinding - List Data Source.csproj.GenerateResource.cache
+C:\Users\洪子翔\Desktop\大三上-視窗程式設計\Databinding examples\DataBinding - List Data Source\DataBinding - List Data Source\obj\Debug\DataBinding - List Data Source.csproj.CoreCompileInputs.cache
+C:\Users\洪子翔\Desktop\大三上-視窗程式設計\Databinding examples\DataBinding - List Data Source\DataBinding - List Data Source\obj\Debug\DataBinding - List Data Source.exe
+C:\Users\洪子翔\Desktop\大三上-視窗程式設計\Databinding examples\DataBinding - List Data Source\DataBinding - List Data Source\obj\Debug\DataBinding - List Data Source.pdb

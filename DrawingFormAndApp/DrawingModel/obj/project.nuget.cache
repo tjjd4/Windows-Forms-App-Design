@@ -1,0 +1,14 @@
+{
+  "version": 2,
+  "dgSpecHash": "Yp5RVd+e5sgqNvS/zQ6ntbcNUwm1U1h+GTWB9pmDW/kjC9BhqHW1TXUpBQ5UyrAKXgDF5ltfT7ttCw1vtUXr9g==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\洪子翔\\Desktop\\大三上-視窗程式設計\\DrawingFormAndApp\\DrawingModel\\DrawingModel.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\洪子翔\\.nuget\\packages\\google.apis\\1.55.0\\google.apis.1.55.0.nupkg.sha512",
+    "C:\\Users\\洪子翔\\.nuget\\packages\\google.apis.auth\\1.55.0\\google.apis.auth.1.55.0.nupkg.sha512",
+    "C:\\Users\\洪子翔\\.nuget\\packages\\google.apis.core\\1.55.0\\google.apis.core.1.55.0.nupkg.sha512",
+    "C:\\Users\\洪子翔\\.nuget\\packages\\google.apis.drive.v2\\1.55.0.2566\\google.apis.drive.v2.1.55.0.2566.nupkg.sha512",
+    "C:\\Users\\洪子翔\\.nuget\\packages\\newtonsoft.json\\13.0.1\\newtonsoft.json.13.0.1.nupkg.sha512"
+  ],
+  "logs": []
+}

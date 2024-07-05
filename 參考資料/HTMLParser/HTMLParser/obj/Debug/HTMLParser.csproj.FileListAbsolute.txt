@@ -1,0 +1,11 @@
+C:\Users\109598026\Desktop\Course\110-1 Windows Programing\HTMLParser\HTMLParser\bin\Debug\HTMLParser.exe.config
+C:\Users\109598026\Desktop\Course\110-1 Windows Programing\HTMLParser\HTMLParser\bin\Debug\HTMLParser.exe
+C:\Users\109598026\Desktop\Course\110-1 Windows Programing\HTMLParser\HTMLParser\bin\Debug\HTMLParser.pdb
+C:\Users\109598026\Desktop\Course\110-1 Windows Programing\HTMLParser\HTMLParser\bin\Debug\HtmlAgilityPack.dll
+C:\Users\109598026\Desktop\Course\110-1 Windows Programing\HTMLParser\HTMLParser\bin\Debug\HtmlAgilityPack.pdb
+C:\Users\109598026\Desktop\Course\110-1 Windows Programing\HTMLParser\HTMLParser\bin\Debug\HtmlAgilityPack.xml
+C:\Users\109598026\Desktop\Course\110-1 Windows Programing\HTMLParser\HTMLParser\obj\Debug\HTMLParser.csproj.AssemblyReference.cache
+C:\Users\109598026\Desktop\Course\110-1 Windows Programing\HTMLParser\HTMLParser\obj\Debug\HTMLParser.csproj.CoreCompileInputs.cache
+C:\Users\109598026\Desktop\Course\110-1 Windows Programing\HTMLParser\HTMLParser\obj\Debug\HTMLParser.csproj.CopyComplete
+C:\Users\109598026\Desktop\Course\110-1 Windows Programing\HTMLParser\HTMLParser\obj\Debug\HTMLParser.exe
+C:\Users\109598026\Desktop\Course\110-1 Windows Programing\HTMLParser\HTMLParser\obj\Debug\HTMLParser.pdb

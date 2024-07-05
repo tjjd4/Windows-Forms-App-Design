@@ -1,0 +1,11 @@
+C:\Users\洪子翔\Desktop\大三上-視窗程式設計\CourseSystem\.vs\CourseSystem\v16\lut\0\b\CourseSystem\bin\Debug\CourseSystem.exe.config
+C:\Users\洪子翔\Desktop\大三上-視窗程式設計\CourseSystem\.vs\CourseSystem\v16\lut\0\b\CourseSystem\bin\Debug\CourseSystem.exe
+C:\Users\洪子翔\Desktop\大三上-視窗程式設計\CourseSystem\.vs\CourseSystem\v16\lut\0\i\CourseSystem\Debug\CourseSystem.ImportCourseProgressView.resources
+C:\Users\洪子翔\Desktop\大三上-視窗程式設計\CourseSystem\.vs\CourseSystem\v16\lut\0\i\CourseSystem\Debug\CourseSystem.SelectResultView.resources
+C:\Users\洪子翔\Desktop\大三上-視窗程式設計\CourseSystem\.vs\CourseSystem\v16\lut\0\i\CourseSystem\Debug\CourseSystem.SelectView.resources
+C:\Users\洪子翔\Desktop\大三上-視窗程式設計\CourseSystem\.vs\CourseSystem\v16\lut\0\i\CourseSystem\Debug\CourseSystem.ManagementView.resources
+C:\Users\洪子翔\Desktop\大三上-視窗程式設計\CourseSystem\.vs\CourseSystem\v16\lut\0\i\CourseSystem\Debug\CourseSystem.StartUpView.resources
+C:\Users\洪子翔\Desktop\大三上-視窗程式設計\CourseSystem\.vs\CourseSystem\v16\lut\0\i\CourseSystem\Debug\CourseSystem.csproj.GenerateResource.cache
+C:\Users\洪子翔\Desktop\大三上-視窗程式設計\CourseSystem\.vs\CourseSystem\v16\lut\0\i\CourseSystem\Debug\CourseSystem.csproj.CoreCompileInputs.cache
+C:\Users\洪子翔\Desktop\大三上-視窗程式設計\CourseSystem\.vs\CourseSystem\v16\lut\0\i\CourseSystem\Debug\CourseSystem.csproj.CopyComplete
+C:\Users\洪子翔\Desktop\大三上-視窗程式設計\CourseSystem\.vs\CourseSystem\v16\lut\0\i\CourseSystem\Debug\CourseSystem.exe

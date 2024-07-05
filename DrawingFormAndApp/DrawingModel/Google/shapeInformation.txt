@@ -1,0 +1,3 @@
+Rectangle,115,185,335,377,null,null
+Ellipse,422,171,673,318,null,null
+Line,225,281,547.5,244.5,0,1
